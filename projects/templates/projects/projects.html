@@ -1,0 +1,36 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<section class="projects_section">
+    <div class="container-xl">
+        <div class="projects_container">
+            <h2 class="projects_features"> Projects</h2>
+            {% for project in projects %}
+            <div class="row this_row_css ">
+                <div class="col-md-6  aligning_projects">
+                    <a class="project_title" href="{% url 'project' project.id %}">{{project.title}}</a>
+                    <p class="project_description">{{project.quick_description}}</p>
+                    <div class="all_tags">
+                        {% for tag in project.tags.all %}
+                        <div class="project_tag">
+                            {{tag}}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    
+                </div>
+                <div class="col-md-6 ">
+                    <div class="project_pictures">
+                        <a   href="{% url 'project' project.id %}"> <img  class="img-fluid  img-thumbnail" src="{{project.imageUrl}}" alt="project"></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% endblock content %}

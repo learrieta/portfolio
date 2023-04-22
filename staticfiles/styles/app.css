@@ -1,0 +1,1624 @@
+/*navbar*/
+
+.navbar{
+    background-color: #f7f7f7;
+    font-family: 'Lato';
+}
+.padding_for_nav{
+    padding: 10px 15px;
+}
+
+.logo{
+    all: unset;
+    color: #000000;
+    font-family: 'Playfair Display';
+    font-size: 50px; 
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.nav-item{
+    color: #5c5c5c;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.nav-item:hover{
+    color: #5c5c5c;
+    font-size: 150%;
+    background-color: #b8b8b8;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+/*Home Section*/
+section{
+    background-color: #f7f7f7;
+    font-family: 'Lato';
+}
+.home_section{
+    padding-bottom: 40px;
+}
+.home_Hi_Luis{
+    color: #000000;
+    font-family: 'Playfair Display';
+    font-size: 110px; 
+    font-weight: 500;
+    margin-top: 50px;
+}
+.home_paragraph_intro{ 
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center;
+    letter-spacing: 0.090em;
+    color: #444444;
+    padding-bottom: 20px;
+}
+
+.home_bolded{
+    font-weight: 900;
+    color: black;
+}
+
+.check_work{
+    all: unset;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    align-items: center;
+    color: black;
+    text-decoration: underline ;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 13px;
+    cursor: pointer;
+}
+.check_work:hover{
+    color: #5c5c5c;
+    font-size: 200%;
+    background-color: #b8b8b8;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+}
+.padding_for_profile{
+    margin-top: 30px;
+}
+/*projects*/
+.projects_features{
+    color: #444444;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+.this_row_css{
+    padding-bottom: 80px;
+}
+
+
+.project_title{
+    all: unset;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project_description{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    color: #444444;
+    margin-top: 30px;
+    max-width: 900px;
+    letter-spacing: 0.075em;
+    text-align: center;
+    
+}
+.project_pictures{
+    display: flex;
+    justify-content: center;
+}
+
+.all_tags{
+    display: flex;
+    justify-content: center;
+}
+.project_tag{
+    background-color: rgb(165, 163, 163);
+    border-radius: 16px;
+    color: #ffffff;
+    padding: 8px 25px;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.075em;
+    margin-top: 13px;
+    margin-bottom: 4%;
+    margin-right: 10px;
+}
+
+
+
+/*about me */
+
+.about_features{
+    color: #444444;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+.about_title{
+    max-width: 600px;
+}
+.my_title{
+    all: unset;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+    
+}
+.paragraph_about{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    color: #444444;
+    margin-top: 30px;
+    max-width: 900px;
+    letter-spacing: 0.075em;
+    padding-bottom: 30px;
+}
+
+
+/*single-project-page*/
+
+.single_project{
+    background-color: #98c1d9;
+    padding-bottom: 10%;
+}
+
+.peru_video{
+    display: flex;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.single_project_title{
+    all: unset;
+    color: #000000;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.single_project_description{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    color: #444444;
+    margin-top: 30px;
+    letter-spacing: 0.075em;
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+}
+.single_picture{
+    margin-top: 10%;
+}
+
+.second_single_project{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.table {
+    margin: auto;
+    width: 50% !important; 
+    text-align: center;
+    font-size: 22px;
+    background-color: white;
+}
+.table th{
+    font-family: 'Lato' !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    color: #444444;
+}
+.third_single_project_features{
+    color: #706f6f;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.third_project_description{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    color: #444444;
+    margin-top: 10px;
+    max-width: 900px;
+    letter-spacing: 0.075em;
+    text-align: center;  
+}
+.source_link{
+    background-color: rgb(165, 163, 163);
+    border-radius: 16px;
+    color: #ffffff;
+    padding: 8px 25px;
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.075em;
+    margin-top: 13px;
+    margin-bottom: 4%;
+    margin-right: 10px;
+    justify-content: center;
+}
+.video_embed{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.demo_video{
+    color: #706f6f;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+/* about me section*/
+.about_me{
+    color: #444444;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center; 
+    padding-bottom: 50px;
+    padding-top: 30px;
+
+}
+.me_title{
+    all: unset;
+    color: #000000;
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.all_p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    color: #444444;
+    margin-top: 30px;
+    max-width: 900px;
+    letter-spacing: 0.075em;
+    padding-bottom: 30px;
+}
+.padding_for_about_me{
+    padding-top: 30px;
+}
+
+.education{
+    color: #444444;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center; 
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+.name_university{
+    all: unset;
+    color: #000000;
+    font-family: "Lato";
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.bachelor_name{
+    all: unset;
+    color: #000000;
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.bachelors_box{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.strongest{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000000;
+    max-width: 900px;
+    letter-spacing: 0.075em;
+}
+.inside_bachelor{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    color: #444444;
+    max-width: 900px;
+    letter-spacing: 0.075em;
+}
+.padding_for_byui{
+    padding-top: 100px;
+}
+
+.work_work{
+    color: #444444;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center; 
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+.name_work{
+    all: unset;
+    color: #000000;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.name_title{
+    all: unset;
+    color: #7e7e7e;
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+.work_experience{
+    padding-bottom: 30px;
+}
+
+.work_work_skills{
+    color: #444444;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+    align-items: center; 
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+
+.inside_bachelor_p{
+    all: unset;
+    color: #565656;
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+.my_email_address{
+    all: unset;
+    color: #000000;
+    cursor: pointer;
+    font-family: "Lato";
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.looking{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 35px;
+    color: #444444;
+    margin-top: 30px;
+    max-width: 900px;
+    letter-spacing: 0.075em;
+    padding-bottom: 30px;
+}
+.linked_in{
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px;
+}
+.github{
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px;
+}
+.copyright{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 35px;
+    color: #444444;
+    margin-top: 30px;
+    letter-spacing: 0.075em;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+@media only screen and  (max-width: 480px) {
+
+    .home_Hi_Luis{
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 40px; 
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+    .home_paragraph_intro{ 
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.090em;
+        color: #444444;
+        margin-bottom: 30px ;
+    }
+    .check_work {
+        all: unset;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: black;
+        text-decoration: underline ;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    .check_work:hover{
+        color: #5c5c5c;
+        font-size: 200%;
+        background-color: #b8b8b8;
+        border-radius: 10px;
+        padding: 20px;
+    }   
+    .images_profiles_images{
+        display: flex;
+        justify-content: center;
+    }
+    .padding_for_profile{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+    /*projects*/
+    .projects_features{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .project_title{
+        all: unset;
+        color: #000000;
+        cursor: pointer;
+        font-family: 'Playfair Display';
+        font-size: 30px; 
+        font-weight: 500;
+        justify-content: center;
+        display: flex;
+    }
+    .project_description{ 
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.060em;
+        color: #444444;
+        max-width: 444px; 
+    }   
+    /*about me */
+
+    .about_features{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .about_title{
+        display: flex;
+        justify-content: center;
+    }
+    .my_title{
+        all: unset;
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 20px; 
+        font-weight: 500;
+        text-align: center;
+       
+    }
+    .paragraph_about{
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.060em;
+        color: #444444;
+        max-width: 444px; 
+    }
+
+    /*Single Project*/
+    .single_project_title{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 30px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .single_project_description{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        letter-spacing: 0.075em;
+        text-align: center; 
+        display: flex;
+        justify-content: center; 
+    }
+    .third_project_description{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        letter-spacing: 0.075em;
+        text-align: center; 
+        display: flex;
+        justify-content: center;
+
+    }
+
+    /*about me section*/
+    .about_me{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 10px;
+        padding-top: 30px;
+    
+    }
+    .me_title{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .all_p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+
+    }
+    .padding_for_about_me{
+        padding-top: 30px;
+    }
+    
+    .education{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-top: 40px;
+    }
+    .name_university{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .bachelor_name{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center; 
+    }
+    .bachelors_box{
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .strongest{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 35px;
+        color: #000000;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+    }
+    .inside_bachelor{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        color: #444444;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+    }
+    .padding_for_byui{
+        padding-top: 10px;
+    }
+    
+    .work_work{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-top: 40px;
+    }
+    .name_work{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .name_title{
+        all: unset;
+        color: #7e7e7e;
+        font-family: "Lato";
+        font-size: 20px;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .work_experience{
+        padding-bottom: 30px;
+    }
+    
+    .work_work_skills{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+    
+    .inside_bachelor_p{
+        all: unset;
+        color: #565656;
+        font-family: "Lato";
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+    
+    
+    
+
+    /*footer*/
+    .my_email{
+        padding-top: 20px;
+    }
+    .my_email_address{
+        all: unset;
+        color: #000000;
+        cursor: pointer;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .looking{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .home_icons{
+        display: flex;
+        justify-content: center;
+    }
+    .linked_in{
+        width: 20px;
+        height: 20px;
+        margin: 20px 20px;
+       
+    }
+    .github{
+        width: 20px;
+        height: 20px;
+        margin: 20px 20px;
+        
+    }
+    .copyright{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        letter-spacing: 0.075em;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+@media only screen and  (max-width: 768px) and (min-width: 480px) {
+    .col-md-6{
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+    .home_Hi_Luis{
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 45px; 
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+    .home_paragraph_intro{ 
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.090em;
+        color: #444444;
+        margin-bottom: 30px ;
+    }
+    .check_work {
+        all: unset;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        display: flex;
+        color: black;
+        text-decoration: underline ;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 13px;
+        justify-content: center;
+    }
+    .check_work:hover{
+        color: #5c5c5c;
+        font-size: 200%;
+        background-color: #b8b8b8;
+        border-radius: 10px;
+        padding: 20px;
+    }   
+    .images_profiles_images{
+        display: flex;
+        justify-content: center;
+    }
+    .padding_for_profile{
+        width: 80% !important;
+        
+    }
+    /*projects*/
+    .projects_features{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .project_title{
+        all: unset;
+        color: #000000;
+        cursor: pointer;
+        font-family: 'Playfair Display';
+        font-size: 35px; 
+        font-weight: 500;
+        justify-content: center;
+        display: flex;
+    }
+    .project_description{ 
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.060em;
+        color: #444444;
+        max-width: 740px; 
+    }  
+
+    /*about*/
+    .about_features{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .about_title{
+        display: flex;
+        justify-content: center;
+    }
+    .my_title{
+        all: unset;
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 35px; 
+        font-weight: 500;
+        text-align: center;
+       
+    }
+    .paragraph_about{
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.060em;
+        color: #444444;
+        max-width: 740px; 
+    }
+
+    /*about me section*/
+    .about_me{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 10px;
+        padding-top: 30px;
+    
+    }
+    .me_title{
+        all: unset;
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .all_p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        text-align: center;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+
+    }
+    .padding_byui{
+        display: flex;
+        justify-content: center;
+    }
+    .padding_for_about_me{
+        padding-top: 30px;
+    }
+    
+    .education{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-top: 40px;
+    }
+    .name_university{
+        all: unset;
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .bachelor_name{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center; 
+    }
+    .bachelors_box{
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .strongest{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+        color: #000000;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+    }
+    .inside_bachelor{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 35px;
+        color: #444444;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+    }
+    .padding_for_byui{
+        padding-top: 10px;
+    }
+    
+    .work_work{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-top: 40px;
+    }
+    .name_work{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .name_title{
+        all: unset;
+        color: #555555;
+        font-family: "Lato";
+        font-size: 30px;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .work_experience{
+        padding-bottom: 30px;
+    }
+    
+    .work_work_skills{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+    
+    .inside_bachelor_p{
+        all: unset;
+        color: #565656;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+
+    .my_email{
+        padding-top: 20px;
+    }
+    .my_email_address{
+        all: unset;
+        color: #000000;
+        cursor: pointer;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .looking{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .home_icons{
+        display: flex;
+        justify-content: center;
+    }
+    .linked_in{
+        width: 20px;
+        height: 20px;
+        margin: 20px 20px;
+       
+    }
+    .github{
+        width: 20px;
+        height: 20px;
+        margin: 20px 20px;
+        
+    }
+    .copyright{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        letter-spacing: 0.075em;
+        display: flex;
+        justify-content: center;
+
+    }
+}   
+
+@media only screen and  (max-width: 992px) and (min-width: 768px) {
+    .col-md-6{
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+    .home_Hi_Luis{
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 50px; 
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+    .home_paragraph_intro{ 
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.090em;
+        color: #444444;
+        margin-bottom: 30px ;
+    }
+    .check_work {
+        all: unset;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        display: flex;
+        color: black;
+        text-decoration: underline ;
+        text-decoration-thickness: 4px;
+        text-underline-offset: 13px;
+        justify-content: center;
+    }
+    .check_work:hover{
+        color: #5c5c5c;
+        font-size: 200%;
+        background-color: #b8b8b8;
+        border-radius: 10px;
+        padding: 20px;
+    }   
+    .images_profiles_images{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .padding_for_profile{
+        width: 80% !important;
+        
+    }
+    /*projects*/
+    .projects_features{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .project_title{
+        all: unset;
+        color: #000000;
+        cursor: pointer;
+        font-family: 'Playfair Display';
+        font-size: 50px; 
+        font-weight: 500;
+        justify-content: center;
+        display: flex;
+    }
+    .project_description{ 
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.060em;
+        color: #444444;
+        max-width: 947px; 
+    }   
+
+    .about_features{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .about_title{
+        display: flex;
+        justify-content: center;
+    }
+    .my_title{
+        all: unset;
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 50px; 
+        font-weight: 500;
+        text-align: center;
+       
+    }
+    .paragraph_about{
+        text-align: center;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 50px;
+        align-items: center;
+        letter-spacing: 0.060em;
+        color: #444444;
+        max-width: 947px; 
+    } 
+
+
+    /*about me section*/
+    .about_me{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 10px;
+        padding-top: 30px;
+    
+    }
+    .me_title{
+        all: unset;
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .all_p{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        text-align: center;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+
+    }
+    .padding_byui{
+        display: flex;
+        justify-content: center;
+    }
+    .padding_for_about_me{
+        padding-top: 30px;
+    }
+    
+    .education{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-top: 40px;
+    }
+    .name_university{
+        all: unset;
+        color: #000000;
+        font-family: 'Playfair Display';
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .bachelor_name{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center; 
+    }
+    .bachelors_box{
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .strongest{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+        color: #000000;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+    }
+    .inside_bachelor{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 35px;
+        color: #444444;
+        max-width: 900px;
+        letter-spacing: 0.075em;
+    }
+    .padding_for_byui{
+        padding-top: 10px;
+    }
+    
+    .work_work{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-top: 40px;
+    }
+    .name_work{
+        all: unset;
+        color: #000000;
+        font-family: "Lato";
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .name_title{
+        all: unset;
+        color: #555555;
+        font-family: "Lato";
+        font-size: 30px;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .work_experience{
+        padding-bottom: 30px;
+    }
+    
+    .work_work_skills{
+        color: #444444;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 10px;
+        padding-top: 30px;
+    }
+    
+    .inside_bachelor_p{
+        all: unset;
+        color: #565656;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        
+    }
+
+    .my_email{
+        padding-top: 20px;
+    }
+    .my_email_address{
+        all: unset;
+        color: #000000;
+        cursor: pointer;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .looking{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        
+        letter-spacing: 0.075em;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .home_icons{
+        display: flex;
+        justify-content: center;
+    }
+    .linked_in{
+        width: 20px;
+        height: 20px;
+        margin: 20px 20px;
+       
+    }
+    .github{
+        width: 20px;
+        height: 20px;
+        margin: 20px 20px;
+        
+    }
+    .copyright{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 35px;
+        color: #444444;
+        margin-top: 30px;
+        letter-spacing: 0.075em;
+        display: flex;
+        justify-content: center;
+
+    }
+    
+}  
+
+
+
+
+
+
+
+

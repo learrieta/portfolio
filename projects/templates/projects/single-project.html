@@ -1,0 +1,79 @@
+{% extends 'main.html' %}
+{% load embed_video_tags %}
+
+{% block content %}
+
+<section class="single_project">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-6  aligning_projects">
+                <p class="single_project_title" >{{project.title}}</p>
+                <p class="single_project_description">{{project.quick_description}}</p>
+                <div class="all_tags">
+                    {% for tag in project.tags.all %}
+                    <div class="project_tag">
+                        {{tag}}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="project_pictures">
+                    <img  class="img-fluid  img-thumbnail  single_picture" src="{{project.imageUrl}}" alt="project">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="second_single_project">
+    <div class="container-xl">
+        <div class="table-responsive-xl">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Role</th>
+                        <th>Team</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <th>{{project.role}}</th>
+                        <th>{{project.team}}</th>
+                        <th>{{project.duration}}</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<section class="third_single_project">
+    <div class="container-xl">
+        <div class="row third_single_project_container"> 
+            <div class="col-md-6">
+                <h2 class="third_single_project_features">Overview</h2>
+                <p class="third_project_description">{{project.overview}}</p>  
+                <a class="source_link" href="{% url 'project' project.id %}">{{project.source_link}}</a>
+            </div>
+            <div class="col-md-6">
+                <h2 class="third_single_project_features">Development Enviroment</h2>
+                {% for dev in project.development.all %}
+                <p class="third_project_description">{{dev}}</p> 
+                {% endfor %}  
+            </div>   
+        </div>
+        <div class="row video_embed">
+            <h2 class="demo_video">Demo Video</h2>
+            <div class=" embed-responsive embed-responsive-21by9">
+                <p  class="video_embed"> {% video project.feature_video "medium" %}</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+{% endblock content %}
+

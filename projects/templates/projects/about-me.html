@@ -1,0 +1,123 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<section class="about_me_section">
+    <div class="container-xl">
+        <video autoplay muted loop class="peru_video">
+            <source class="videos" src="{% static 'images/profiles/peru_video.mp4' %}">
+        </video>
+        <h2 class="about_me"> About Me</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about_me_title">
+                    <h1 class="me_title"> Originally from Lima, Peru.<br>
+                        Currently in Rexburg, ID.</h1>
+                </div>
+                <div class="all_p">
+                    <p class="first_p">Hola! I'm Luis - a computer scientist that loves bulding and deploying websites, 
+                        developing databases and creating software applications.
+                    </p>  
+                    <p class="second_p">
+                        I was born and raise in Lima, Peru. Growing up, I had a unique perspective of the
+                        the world - where my parents and grandparents worked hard everyday to provide a 
+                        future for the family. I learned many lessons from them such as dedication, commitment and perseverance.
+                    </p>
+                    <p class="third_p">
+                        I am graduating with a degree in Computer Science with experience working,
+                        across the full-stack of software development. The world of computers is growing at an un-recordable
+                        rate everyday, computers are the most influential tools in our lives, they are our present and future.
+                    </p>
+                    <p class="fourth_p">
+                        I am  looking for a role where I can grow and learn from experieced 
+                        team members while drawing on project experience I have already successfully executed.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid padding_for_about_me"  src="{% static 'images/profiles/about_me.PNG' %}">               
+            </div>     
+        </div>
+        
+        <div class="row">
+            <div class="my_education">
+                <h1 class="education">Education</h1>
+            </div>
+            <div class="col-md-6 padding_byui">
+                <img class="img-fluid padding_for_byui"  src="{% static 'images/profiles/byui.jpg' %}">               
+            </div>
+            <div class="col-md-6">
+                <div class="name_university">
+                    <p>Brigham Young University - Idaho </p>
+                </div>
+                <div class="bachelor_name">
+                    <p>Bachelor of Science - BS, Computer Science </p>
+                </div>
+                <div class="bachelors_box">
+                    <div class="inside_bachelor">
+                        <p><strong class="strongest">&mdash;GPA:</strong> 4.0 </p>
+                    </div>
+                    <div class="inside_bachelor">
+                        <p><strong class="strongest">&mdash;Relevant Coursework:</strong> Data Structures (Python, C#), Design and Analysis of Algorithms, Database (MySQL,
+                            Firebase Cloud), Object Oriented Programming (Python, C#), Web Development (HTML, CSS, React.js,
+                            JavaScript) 
+                        </p>
+                    </div>
+                    <div class="inside_bachelor">
+                        <p><strong class="strongest">&mdash;Campus Involvement:</strong> Cyber-Security Society, Heber J. Grant Mentor Program, Grant Scholarship (Full
+                            tuition 2022-2023)
+                        </p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="work_history">
+                    <h1 class="work_work">Experience</h1>
+                </div>
+                <div class="work_experience">
+                    <p class="name_work">-Brevium </p><br>
+                    <p class="name_title">Database Engineer </p>
+                </div>
+                <div class="work_experience">
+                    <p  class="name_work">-Brigham Young University </p><br>
+                    <p class="name_title"> Computer Science Tutor </p>
+                </div>
+                <div class="work_experience">
+                    <p class="name_work">-TSP Contracting  </p><br>
+                    <p class="name_title"> General Manager </p>
+                </div>
+            </div>
+           
+
+
+            <div class="col-md-6">
+                <div class="name_work_skills">
+                    <h1 class="work_work_skills">Technical Skills </h1>
+                </div>
+                <div class="lets_skills">
+                    <div class="inside_bachelor_p">
+                        <p><strong class="strong_exp">• Programming Languages:</strong> Python, C#, Java, C++, JavaScript, Node.js, HTML, CSS, MySQL </p>
+                    </div>
+                    <div class="inside_bachelor_p">
+                        <p><strong class="strong_exp_">• Software Tools:</strong> Angular, React, Firebase, GitHub,Django, Bootstrap. 
+                        </p>
+                    </div>
+                    <div class="inside_bachelor_p">
+                        <p><strong class="strong_exp">• Languages:</strong> Spanish(native), English(native)
+                    </div>
+    
+                </div>
+            </div>
+            
+
+        </div>
+       
+        
+
+    </div>
+</section>
+
+{% endblock content %}

@@ -1,0 +1,83 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+<section class="home_section">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-md-6 for_media">
+                <h1 class="home_Hi_Luis"> Hi, I'm Luis!</h1>
+                <p class=" home_paragraph_intro">Full stack developer fascinated by<br> technology
+                    and innovation. At the moment <br>I’m based
+                    in Rexburg, Idaho , designing, <br>installing
+                    and troubleshooting<br>
+                    databases at <span class="home_bolded">Brevium.</span>
+                </p>
+                <a  class="check_work"  href="{% url 'projects' %}">Check out my work</a>
+            </div>
+            <div class="col-md-6  images_profiles_images">
+                <img class="img-fluid padding_for_profile"  src="{% static 'images/profiles/profile.png' %}">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="projects_section">
+    <div class="container-xl">
+        <div class="projects_container">
+            <h2 class="projects_features"> Featured Projects</h2>
+            {% for project in feature_projects %}
+            <div class="row this_row_css">
+                <div class="col-md-6  aligning_projects">
+                    <a class="project_title" href="{% url 'maxim' project.id %}">{{project.title}}</a>
+                    <p class="project_description">{{project.quick_description}}</p>
+                    <div class="all_tags">
+                        {% for tag in project.tags.all %}
+                        <div class="project_tag">
+                            {{tag}}
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    
+                </div>
+                <div class="col-md-6 ">
+                    <div class="project_pictures">
+                        <a   href="{% url 'maxim' project.id %}"> <img  class="img-fluid  img-thumbnail" src="{{ project.imageUrl}}" alt="project"></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="about_section">
+    <div class="container-xl">
+        <div class="about_container">
+            <h2 class="about_features">About Me</h2>
+            <div class="about_title">
+                <h1 class="my_title">Full-Stack developer from Lima, Peru.
+                    Currently based in Rexburg, Idaho.
+                </h1>
+            </div>
+            <div class="paragraph_about">
+                <p class="about_one">I am a Database Engineer at Brevium.
+                    In this position I have been able to work with SQL Server Management Services, AWS technologies such Amazon RDS and Amazon S3.
+                </p>
+                <p class="about_two">
+                    Running queries to troubleshoot data, and doing maintenance routines for our current databases are some of my day to day task.
+                    I like thinking analytically, and I thrive with new challenges.
+                </p>
+                <p class="about_three"> The things that excite me the most are innovation, programming and digital infrastructure.<br>
+                    Let's get in touch! Read more about me  <a href="{% url 'about_me' %}"> here.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}
